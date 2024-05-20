@@ -18,9 +18,10 @@ This machine learning project is designed to detect deepfake audio files. Built 
 2. **Dataset Access**
    - The dataset is available via a Google Drive link. Request access to the dataset from us.
    - Once granted, download the dataset and ensure it is structured correctly in your local environment.
+   - Here is the link for the G-drive data folders - 'https://drive.google.com/drive/folders/1iu07PKL_30AlSYO61Wn6Kpwn54_dCD48?usp=drive_link'
 
 3. **Model Training**
-   - Use the provided Jupyter Notebook (`train_model.ipynb`) to train the model. Ensure the dataset is placed in the correct directories (`Train_Audio` and `Test_Audio`).
+   - Use the provided Jupyter Notebook (`Final_Deepfake.ipynb`) to train the model. Ensure the dataset is placed in the correct directories (`Train_Audio` and `Test_Audio`).
    - The model architecture is a simple CNN built using Keras with the following key layers:
      ```python
      model = Sequential([
