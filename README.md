@@ -11,7 +11,7 @@ This machine learning project is designed to detect deepfake audio files. Built 
 
 1. **Clone the Repository**
    ```bash
-   git clone [your-repo-link]
+   git clone https://github.com/UtkarshP07/Audio-deepfake-detector
    cd [your-repo-directory]
    ```
 
