@@ -22,7 +22,7 @@ This machine learning project is designed to detect deepfake audio files. Built 
 
 3. **Model Training**
    - Use the provided Jupyter Notebook (`Final_Deepfake.ipynb`) to train the model. Ensure the dataset is placed in the correct directories (`Train_Audio` and `Test_Audio`).
-   - The model architecture is a simple CNN built using Keras with the following key layers:
+   - The model architecture is a simple CNN built using tensorflow with the following key layers:
      ```python
      model = Sequential([
          Flatten(input_shape=(775, 385, 3)),
@@ -72,7 +72,7 @@ This machine learning project is designed to detect deepfake audio files. Built 
 The training process involves the following steps:
 
 - **Data Loading:** Images of spectrograms from the dataset are loaded and preprocessed.
-- **Model Architecture:** A CNN model is constructed using Keras, featuring multiple dense layers with dropout for regularization.
+- **Model Architecture:** A CNN model is constructed using tensorflow, featuring multiple dense layers with dropout for regularization.
 - **Training:** The model is trained on the preprocessed data for 15 epochs with a batch size of 32.
 - **Evaluation:** The model's performance is evaluated on the test set, achieving an accuracy of 85%.
 - **Saving the Model:** The trained model is saved as `deepfake_final.h5`.
